@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=${prefix}/bin
+includedir=${prefix}/include/
+libdir=${prefix}/lib
+
+Name: libtrace
+Description: libtrace
+Version: 3.0.23
+Cflags: -I${includedir}
+Libs: -L${libdir} -ltrace

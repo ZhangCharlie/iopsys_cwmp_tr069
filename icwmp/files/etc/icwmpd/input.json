@@ -1,0 +1,18 @@
+{
+	"daemon": {
+		"config": {
+			"loglevel": "1"
+		},
+		"input": {
+			"type": "DotSo",
+			"name": "/etc/icwmpd/libcwmpdm.so",
+			"plugin_dir": "/etc/icwmpd/plugins/"
+		},
+		"output": {
+			"type": "UBUS",
+			"parent_dm": "Device.",
+			"multiple_objects": [ "ManagementServer", "XMPP" , "CWMPManagementServer"],
+			"root_obj": "bbfdm"
+		}
+	}
+}
