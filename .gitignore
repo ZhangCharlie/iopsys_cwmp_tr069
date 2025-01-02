@@ -1,0 +1,5 @@
+*.taghl
+*.tags
+*.project
+*.editorconfig
+*.taghl_config.txt
